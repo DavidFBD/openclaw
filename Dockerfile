@@ -36,5 +36,6 @@ ENV NODE_ENV=production
 # This reduces the attack surface by preventing container escape via root privileges
 USER node
 
-CMD ["node", "dist/index.mjs", "gateway", "--host", "0.0.0.0", "--port", "18789"]
+CMD ["node", "dist/index.mjs", "gateway", "--port", "18789"]
+
 
